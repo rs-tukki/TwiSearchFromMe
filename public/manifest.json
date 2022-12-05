@@ -1,0 +1,13 @@
+{
+  "name": "TwiSearchFromMe",
+  "description": "Twitter Search With My Tweet.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["js/script.js"],
+      "all_frames": true
+    }
+  ]
+}
